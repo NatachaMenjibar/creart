@@ -40,11 +40,10 @@
           margin-bottom:1rem;
           font-size:12px;
           margin-top:0;
-
       }
       iframe {
           margin:0 auto;
-          width: 900px;
+          width: 800px;
       }
       .flex{
           display:flex;
@@ -108,6 +107,10 @@
           text-align:center;
           font-size: 14px;
       }
+      iframe main {
+          display:flex;
+          justify-content: center;
+      }
   </style>
 </head>
 
@@ -116,20 +119,22 @@
    <div class="logo"><h1>GENERART</h1>
     <p class="tagline">Fuck you, ARCO</p></div>
     <ul class="menu">
-            <li class="active"><a href="index.html">Experimentos</a></li>
-            <li><a href="cuadros.html">Cuadros</li></a></li>
-            <li><a href="juegos.html">Juegos</li></a></li>
+        <li><a href="index.html">Experimentos</a></li>
+        <li><a href="cuadros.html">Cuadros</li></a></li>
+        <li class="active"><a href="juegos.html">Juegos</li></a></li>
     </ul>
 </header>
 <div class="flex">
     <div cass="botonera">
-
-    <button id="btn">Random ART</button>
+<br>
 </div>
-    <iframe style="width: 900px; height: 950px;"  scrolling="no" frameborder="0"  id="frame" src="" style="width:200px; height: 200px"></iframe>
+    <!--<iframe style="width: 900px; height: 950px;"  scrolling="no" frameborder="0"  id="frame" src="" style="width:200px; height: 200px"></iframe>-->
+
+    <img src="https://chat.kaleidos.net/files/pph5upxzqiry5fraxdnsxdjbhh/public?h=SnkuxEwXrVjKsqfxm6DzXDWvm2QK2LZYkI7HszVLTQ8">
+    <img src="https://chat.kaleidos.net/files/qgug18kmybn39n57fx6yjpxwxc/public?h=L675lRoRHzq_drzHo_1LLUiHNYFDZoYwhMBDc8SIKjs">
 </div>
 
-<script>
+<!--<script>
     window.onload = function(){
     getRandomUrl(myFrame);
 };
@@ -137,15 +142,6 @@
 //add text to the list have it randomly appear when click me button is pressed
 var list = [
     "https://preview.p5js.org/natachamenjibar/embed/MH6EySTl2", // experimentos
-    "https://preview.p5js.org/natachamenjibar/embed/zlVBrgneI", // cuadros/experimento
-    "https://preview.p5js.org/Miryamgduque/embed/7A3AYe8rdt",
-   "https://preview.p5js.org/Miryamgduque/embed/EDS6fvSNv",
-    "https://preview.p5js.org/Miryamgduque/embed/WtwbQNLo_",
-    "https://preview.p5js.org/Miryamgduque/embed/vOMlgxs9l",
-    "https://preview.p5js.org/Miryamgduque/embed/UHIo3Nk9j",
-    "https://preview.p5js.org/natachamenjibar/embed/qXi4IojQX",
-   "https://preview.p5js.org/natachamenjibar/embed/NZiS40VNT"
-
 ];
 var myFrame = document.getElementById("frame");
 
@@ -160,7 +156,7 @@ btn.addEventListener("click", function() {
    getRandomUrl(myFrame); 
     
 });
-</script>
+</script> -->
 
 <section>
 <p class="footer">Sketches disponibles en <a target="_blank" href="https://editor.p5js.org/natachamenjibar/collections/WERf8HqUD">p5.js</a> - Hecho con ❤ y Open Source durante la #PiWeek de <a href="https://kaleidos.net">Kaleidos.net</a></p>
